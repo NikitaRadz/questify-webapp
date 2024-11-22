@@ -1,0 +1,12 @@
+.questify-title {
+    text-align: center;
+    color: #5fad40;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .questify-title:hover {
+    color: #5fad40;
+    cursor: default;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+  }
