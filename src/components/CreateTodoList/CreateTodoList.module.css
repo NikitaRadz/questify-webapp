@@ -9,7 +9,7 @@
 .add-list-btn {
     font-size: 1em;
     font-weight: bold;
-    background-color: black;
+    background-color: #5fad4045;
     color: white;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -27,4 +27,13 @@
 .add-list-btn:focus,
 .add-list-btn:focus-visible {
     outline: 2px auto -webkit-focus-ring-color;
+}
+
+/* List styles below */
+.lists-area {
+    display: block;
+}
+
+.list-box {
+    display: inline-block;
 }

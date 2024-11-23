@@ -1,6 +1,8 @@
 import HeaderCSS from "./Header.module.css"
-export default function Header() {
+export function Header() {
     return (
-            <h1 className={HeaderCSS["questify-title"]}>Questify</h1>
+            <div className={HeaderCSS["header"]}>
+                <h1 className={HeaderCSS["questify-title"]}>Questify</h1>
+            </div>
     )
 }

@@ -1,11 +1,13 @@
 .questify-title {
-    text-align: center;
-    color: #5fad40;
-    transition: transform 0.5s ease-in-out;
-  }
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5fad40;
+  transition: transform 0.5s ease-in-out;
+}
   
-  .questify-title:hover {
-    cursor: default;
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
-  }
+.questify-title:hover {
+  cursor: default;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
