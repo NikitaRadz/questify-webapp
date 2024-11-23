@@ -1,0 +1,30 @@
+.add-list-btn {
+    color: black;
+}
+
+.form-label {
+    display: block;
+}
+
+.add-list-btn {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    margin-top: 0.6em;
+    width: 100%;
+}
+
+.add-list-btn:hover {
+    cursor: pointer;
+    border-color: #5fad40;
+    transition: border-color 0.25s ease-in-out;
+}
+
+.add-list-btn:focus,
+.add-list-btn:focus-visible {
+    outline: 2px auto -webkit-focus-ring-color;
+}
