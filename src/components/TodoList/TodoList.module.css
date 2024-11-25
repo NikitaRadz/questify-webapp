@@ -1,0 +1,16 @@
+.lists-area {
+    display: block;
+}
+
+.list-box {
+    display: inline-block;
+    min-height: 10em;
+    margin: 1em;
+    background-color: rgb(78, 163, 78);
+    border-radius: 10px;
+}
+
+.list-header {
+    margin-left: 1em;
+    margin-right: 1em;
+}
