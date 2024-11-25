@@ -10,7 +10,7 @@ import NewTodoCSS from "./CreateTodoList.module.css";
  * that adds a new list to the state when submitted
  */
 export function CreateTodoList() {
-    const [newList, setNewList] = useState(""); // Add new list
+    const [newList, setNewList] = useState(""); // Get new list name from input box
     const [titles, setTitles] = useState<{ id: string, name: string, tasks: string[] }[]>([]);
 
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -40,9 +40,6 @@ export function CreateTodoList() {
                 />
             </div>
             <button className={NewTodoCSS["add-list-btn"]} type="submit">Add List</button>
-            {titles.map(title => (
-                <TodoList key={title.id} {...title} />
-            ))}
         </form>
     )
 }
