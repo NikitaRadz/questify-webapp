@@ -5,9 +5,12 @@
 .list-box {
     display: inline-block;
     min-height: 10em;
+    min-width: 10em;
+    max-width: 20em;
     margin: 1em;
     background-color: rgb(78, 163, 78);
     border-radius: 10px;
+    word-break: break-all;
 }
 
 .list-header {
